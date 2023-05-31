@@ -1,0 +1,26 @@
+h1{
+    color:red;
+    text-align: center;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+    background-size:cover;
+
+}
+#image1{
+    float:right;
+    height:7cm;
+    width:7cm;
+}
+#image2{
+    float:left;
+    height:7cm;
+    width:7cm;
+}
+.were{
+    float:left;
+    height:7cm;
+    width:7cm;
+    border-style: dashed;
+    border-color: white;
+}

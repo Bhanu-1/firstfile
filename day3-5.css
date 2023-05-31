@@ -1,0 +1,17 @@
+.img1{
+    height: 300px;
+    width: 300px;
+    transition-duration: 3s;
+    animation-name: bhanu;
+    animation-duration: 3s;
+    animation-iteration-count: 3s;
+}
+@keyframes bhanu {
+    30%{
+        height: 400px;
+        width: 400px;
+        float: right;
+
+    }
+    
+}

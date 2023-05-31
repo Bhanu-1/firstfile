@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="p1">iron man 1</h1>
+    <p class="p1">iron man 2</p>
+    <h2 class="p1">iron man 3</h2>
+    <button ondblclick="print()">click</button>
+</body>
+<script>
+    document.write("")
+    function print(){
+    let x=document.getElementsByClassName("p1")
+    for(i=0;i<3;i++)
+    console.log(x[i].innerHTML)
+    }
+    localStorage.setItem("name","bhanu prakash")
+    localStorage.setItem("phnno","9912740304")
+    console.log(localStorage.getItem("name"))
+    console.log(localStorage.getItem("phnno"))
+    function prak(){
+        this.name="bhanu prakash"
+        this.email="bhanu60c@gmail.com"
+    }
+    prak.prototype.num=994038043
+    let a=new prak();
+    console.log(a.name)
+    console.log(a.num)
+
+</script>
+</html>

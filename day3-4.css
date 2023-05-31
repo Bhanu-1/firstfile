@@ -1,0 +1,40 @@
+.img1{
+    height: 300px;
+    width: 300px;
+    transition-duration: 4s;
+    border-radius: 60px;
+}
+.img2{
+    height: 300px;
+    width: 300px;
+    transition-duration: 4s;
+    border-radius: 60px;
+}
+.img3{
+    height: 300px;
+    width: 300px;
+    transition-duration: 4s;
+    border-radius: 60px;
+}
+.img4{
+    height: 300px;
+    width: 300px;
+    transition-duration: 4s;
+    border-radius: 60px;
+}
+.img1:hover{
+    transform: rotate(360deg);
+
+}
+.img2:hover{
+    transform: scale(2);
+
+}
+.img3:hover{
+    transform: translate(200px);
+
+}
+.img4:hover{
+    transform: translatey(200px);
+
+}
